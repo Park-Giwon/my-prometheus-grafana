@@ -8,3 +8,4 @@ resources:
   - kube-state-deployment.yaml
   - kube-state-svcaccount.yaml
   - kube-state-svc.yaml
+  - grafana.yaml
