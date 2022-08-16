@@ -14,6 +14,11 @@ spec:
       labels:
         app: grafana
     spec:
+      tolerations:
+      - key: "hi"
+        operator: "Equal"
+        value: "hello"
+        effect: "NoSchedule"
       containers:
       - name: grafana
         image: grafana/grafana:latest
